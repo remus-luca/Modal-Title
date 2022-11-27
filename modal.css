@@ -1,0 +1,133 @@
+html,
+body {
+  position: relative;
+  display: inline-block;
+  z-index: -1;
+  font-family: "Open Sans", sans-serif;
+}
+.container {
+  display: block;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  left: 500px;
+  top: 200px;
+  z-index: 3;
+  border-color: rgb(255, 255, 255);
+  height: 210px;
+  width: 260px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+}
+.modal {
+  width: 100%;
+
+  top: 0px;
+  left: 0px;
+  position: fixed;
+  display: none;
+  background-color: black;
+
+  z-index: -5;
+
+  bottom: 0;
+  padding: 0;
+}
+.close {
+  color: black;
+  position: fixed;
+  left: 720px;
+  top: 210px;
+  z-index: 3;
+  font-size: 23.5px;
+}
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.container input {
+  width: 205px;
+  z-index: 3;
+  position: relative;
+  display: inline-block;
+  left: 20px;
+}
+.container label {
+  position: relative;
+  display: inline-block;
+  z-index: 3;
+  left: 20px;
+}
+.title {
+  position: relative;
+  display: inline-block;
+  z-index: 3;
+  left: 20px;
+}
+.btn-s a {
+  text-decoration: none;
+  color: white;
+  position: relative;
+  display: inline-block;
+  z-index: 3;
+  font-size: 16px;
+  font-weight: bold;
+}
+.btn-s {
+  position: relative;
+  z-index: 3;
+  display: inline-block;
+  left: 100px;
+  border: none;
+  top: 25px;
+  margin: 0;
+  padding: 0;
+  width: 60px;
+  height: 25px;
+  border-radius: 3px;
+  background-color: rgb(51, 116, 238);
+  color: white;
+}
+.btn-s:hover {
+  background-color: rgb(100, 140, 214);
+}
+.btn-c {
+  position: relative;
+  display: inline-block;
+  left: 140px;
+  z-index: 3;
+  border: none;
+  margin: 0;
+  padding: 0;
+  top: -5px;
+  width: 100px;
+  height: 35px;
+  border-radius: 3px;
+  background-color: transparent;
+  font-size: 16px;
+}
+.btn-c a {
+  text-decoration: none;
+  color: rgb(51, 116, 238);
+  font-size: 16px;
+  font-weight: bold;
+}
+.btn-c a:hover {
+  color: rgb(100, 140, 214);
+}
+.open {
+  position: relative;
+  left: 100px;
+  top: 200px;
+  display: inline-block;
+  border: none;
+  z-index: 1;
+  width: 120px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: rgb(33, 29, 240);
+  color: white;
+  font-size: 18px;
+}

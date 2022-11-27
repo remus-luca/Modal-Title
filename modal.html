@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal Title</title>
+    <link rel="stylesheet" href="modal.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./modal.js" defer></script>
+  </head>
+  <body>
+    <button id="open" class="open">Open Modal</button>
+    <div class="modal" id="modal">
+      <div class="container">
+        <span class="close" id="close">&times;</span>
+        <div><h2 class="title">Modal title</h2></div>
+        <div>
+          <label for="name">Name</label>
+        </div>
+        <div>
+          <input type="name" placeholder="Name" />
+        </div>
+        <div>
+          <button class="btn-s"><a href="#">Submit</a></button>
+        </div>
+        <div>
+          <button class="btn-c" id="btn-c"><a href="#">Close</a></button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
